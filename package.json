@@ -1,0 +1,24 @@
+{
+  "name": "virtualkeyboard",
+  "version": "1.0.0",
+  "description": "RSS Virtual Keyboard",
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomas-Zagorskis/Virtual-Keyboard.git"
+  },
+  "author": "Tomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomas-Zagorskis/Virtual-Keyboard/issues"
+  },
+  "homepage": "https://github.com/Tomas-Zagorskis/Virtual-Keyboard#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "lint": "^0.7.0"
+  }
+}
