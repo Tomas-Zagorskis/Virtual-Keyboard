@@ -75,7 +75,7 @@ body {
 }
 
 .keyboard__key:active {
-  border-radius: 15px;
+  transform: scale(0.95);
   box-shadow: none;
 }
 
