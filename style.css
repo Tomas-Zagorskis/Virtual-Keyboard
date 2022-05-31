@@ -1,0 +1,99 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Styling */
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background: #eeffbf;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.text {
+  height: 25vh;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  margin: 10vh auto 0;
+  padding: 1%;
+  resize: none;
+  outline: none;
+}
+
+.info {
+  margin: 0 auto;
+}
+
+.keyboard {
+  width: 100%;
+  margin: 3% auto;
+  padding: 1%;
+  user-select: none;
+}
+
+.keyboard__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyboard__key {
+  height: 50px;
+  width: 50px;
+  margin: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  border: 1px solid #b4b4b4;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s;
+  background-color: rgb(215, 211, 255);
+  color: rgb(43, 43, 43);
+}
+
+.keyboard__key.active {
+  background-color: rgb(178, 175, 209);
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+.keyboard__key:active {
+  border-radius: 15px;
+  box-shadow: none;
+}
+
+.keyboard__key:hover {
+  background-color: rgb(178, 175, 209);
+}
+
+.keyboard__key_wide {
+  width: 60px;
+  background-color: rgb(198, 195, 238);
+}
+
+.keyboard__key_extra-wide {
+  width: 120px;
+  background-color: rgb(198, 195, 238);
+}
+
+.keyboard__key_ultra-wide {
+  width: 430px;
+  background-color: rgb(198, 195, 238);
+}
